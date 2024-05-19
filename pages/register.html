@@ -8,6 +8,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="shortcut icon" href="./imgs/favIcon.png" type="image/x-icon">
+    <!-- style footer -->
+    <link rel="stylesheet" href="./style/footer.css" />
     <!-- Style del navBar -->
     <link href="../styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -77,14 +79,42 @@
         <div id="mensaje" class="alert alert-success" style="display: none;" role="alert">
             Usuario creado correctamente
         </div>
-        <div>
-        </div>
+    </div>
 
-        <!-- bootstrap js -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
-        <script src="../script/register.js"></script>
+    <!-- footer -->
+    <footer class="bg-light text-center text-lg-start mt-auto">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-12 mb-4 mb-md-0">
+                    <div class="mb-4">
+                        <a href="#" title="Instagram" class="text-dark mx-2">
+                            <img src="../imgs/instagram.svg" alt="Instagram" class="social-icon">
+                        </a>
+                        <a href="#" title="Linkedin" class="text-dark mx-2">
+                            <img src="../imgs/linkedin.svg" alt="Linkedin" class="social-icon">
+                        </a>
+                        <a href="#" title="Twitter" class="text-dark mx-2">
+                            <img src="../imgs/twitter.svg" alt="Twitter" class="social-icon">
+                        </a>
+                        <a href="#" title="Youtube" class="text-dark mx-2">
+                            <img src="../imgs/youtube.svg" alt="YouTube" class="social-icon">
+                        </a>
+                        <a href="#" title="GitHub" class="text-dark mx-2">
+                            <img src="../imgs/github.svg" alt="GitHub" class="social-icon">
+                        </a>
+                    </div>
+                    <small class="d-block">&copy; ServiHogar <span id="year"></span>, Todos los derechos
+                        reservados</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../script/register.js"></script>
 </body>
 
 </html>
