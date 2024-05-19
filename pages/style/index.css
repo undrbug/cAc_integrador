@@ -1,6 +1,6 @@
-.container {
+/* .container {
     width: 100vh;
-}
+} */
 
 #mensaje {
     display: none;
@@ -32,4 +32,14 @@ button {
 
 .login-form .btn {
     width: 100%;
+}
+
+.middle {
+    min-height: 100vh; /* Hace que el contenedor ocupe toda la altura de la ventana gráfica */
+}
+
+@media (max-width: 576px) {
+    .login-form {
+        padding: 15px;
+    }
 }
