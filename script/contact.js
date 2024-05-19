@@ -1,12 +1,13 @@
 document.getElementById(`btn_send`).addEventListener(`click`, function (event) {
-    event.preventDefault();
+    // event.preventDefault();
     let name = document.getElementById(`name`).value;
     let email = document.getElementById(`email`).value;
     let message = document.getElementById(`message`).value;
     let msgEnviado = document.getElementById(`msgEnviado`);
     
     if (name === `` || email === `` || message === ``) {
-        alert(`Por favor, complete todos los campos`);
+      //Tengo que elimiar el alert y poner un mensaje en el HTML
+        // alert(`Por favor, complete todos los campos`);
         return;
     } else {
         msgEnviado.style.display = `block`;

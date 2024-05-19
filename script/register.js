@@ -117,10 +117,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//volver al login
-
 document.getElementById("crearCuenta").addEventListener("click", (event) => {
-  event.preventDefault();
+  // event.preventDefault();
 
   const inputUsername = document.getElementById("newEmail").value.trim();
   const inputPassword = document.getElementById("newPassword").value.trim();
@@ -135,9 +133,11 @@ document.getElementById("crearCuenta").addEventListener("click", (event) => {
   };
 
   if (usr.email === "" || usr.password === "" || usr.username === "" || inputConfirmPassword === "") {
-    alert("Por favor, complete todos los campos.");
+    //tengo que elimiar el alert y poner un mensaje en el HTML
+    // alert("Por favor, complete todos los campos.");
     return;
   }
+
 
   let arr = JSON.parse(localStorage.getItem("usuario"));
   if (!arr) {

@@ -17,3 +17,19 @@ button {
 #msgEnviado  {
     display: none;
 }
+
+.login-form {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.login-form .form-control {
+    margin-bottom: 15px;
+}
+
+.login-form .btn {
+    width: 100%;
+}
