@@ -35,11 +35,15 @@ button {
 }
 
 .middle {
-    min-height: 100vh; /* Hace que el contenedor ocupe toda la altura de la ventana gráfica */
+    min-height: 100vh;
 }
 
 @media (max-width: 576px) {
+    .middle {
+        min-height: 70vh;
+    }
     .login-form {
+        margin-top: 30px;
         padding: 15px;
     }
 }

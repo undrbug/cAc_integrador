@@ -19,3 +19,12 @@ a{
 #logo{
     width: 8%;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.p-2{
+    margin: 10px 15px 0 15px;
+}
