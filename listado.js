@@ -210,10 +210,11 @@ const Listado = [
     }
 ];
 
-function importarListado(){
+function importarListado(lista = Listado){
     let wrapper = document.getElementById("listado");
-Listado.map((articulo) => {
-    wrapper.insertAdjacentHTML('afterbegin', `
+    wrapper.innerHTML = '';
+lista.map((articulo) => {
+    wrapper.insertAdjacentHTML('beforeend', `
     <div class="d-flex flex-column border border-info rounded my-2 p-3">
         
         <div class="d-flex align-items-center gap-3 mb-3">
@@ -263,5 +264,15 @@ Listado.map((articulo) => {
     `)
 });
 }
-
-importarListado();
+//Cargamos el listado cuando carga la pagina
+document.addEventListener('DOMContentLoaded', () => {
+    importarListado();
+});
+//Vamos filtrando a medida que escriben en el input
+document.getElementById('key_search').addEventListener('keyup', (e) => {
+    const search = e.target.value.toLowerCase();
+    const filteredList = Listado.filter((articulo) => {
+        return articulo.nombre.toLowerCase().includes(search) || articulo.oficio.toLowerCase().includes(search);
+    });
+    importarListado(filteredList);
+});

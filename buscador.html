@@ -21,6 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+
             <div id="nav-content" class="collapse navbar-collapse">
                 <ul class="nav nav-underline me-auto mb-2 mb-lg-0 gap-3 justify-content-end">
                     <li class="nav-item"><a href="index.html" class="nav-link"><i class="bi bi-house mx-2"></i>Inicio</a></li>
@@ -33,13 +34,21 @@
         </div>
     </nav>
 
+    <!-- search for jobs -->
+    <div class="container">
+        <form class="d-flex" role="search">
+            <input class="form-control m-sm-3" type="search" placeholder="Buscar oficios" id="key_search" aria-label="Search">
+            <button class="btn btn-outline-success m-sm-2" type="button" id="btn_search">Buscar</button>
+          </form>
+    </div>
     <div class="p-2">
-        <div id="listado" class="d-flex flex-column">
+        <div id="listado" class="d-flex flex-column lcard">
         </div>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="listado.js"> </script>
+    <script src="./script/search.js"></script>
 </body>
 </html>
