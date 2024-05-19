@@ -1,0 +1,19 @@
+.container {
+    width: 100vh;
+}
+
+#mensaje {
+    display: none;
+}
+
+button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+#msgEnviado  {
+    display: none;
+}
