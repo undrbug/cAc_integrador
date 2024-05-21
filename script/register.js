@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.getElementById("crearCuenta").addEventListener("click", (event) => {
-  // event.preventDefault();
+  event.preventDefault();
 
   const inputUsername = document.getElementById("newEmail").value.trim();
   const inputPassword = document.getElementById("newPassword").value.trim();
@@ -147,7 +147,7 @@ document.getElementById("crearCuenta").addEventListener("click", (event) => {
   arr.push(usr);
   localStorage.setItem("usuario", JSON.stringify(arr));
 
-  window.location.href = 'login.html';
+  window.location.href = "./login.html";
 })
 
 
