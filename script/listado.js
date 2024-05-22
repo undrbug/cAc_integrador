@@ -2,7 +2,7 @@
 const Listado = [
     {
         nombre: "Gabriel Martinez",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Electricista",
         email: "bobinajesmartinez@outlook.com",
         telefono: "11 1234-5678",
@@ -13,7 +13,7 @@ const Listado = [
 
     {
         nombre: "Laura Fernández",
-        imagen: "imgs/pfp_jardinera.png",
+        imagen: "../imgs/pfp_jardinera.png",
         oficio: "Plomera",
         email: "lfplomeria@gmail.com",
         telefono: "11 2345-6789",
@@ -24,7 +24,7 @@ const Listado = [
 
     {
         nombre: "Carlos Gómez",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Pintor",
         email: "carlospinturas@hotmail.com",
         telefono: "11 3456-7890",
@@ -35,7 +35,7 @@ const Listado = [
 
     {
         nombre: "Ana Rodríguez",
-        imagen: "imgs/pfp_jardinera.png",
+        imagen: "../imgs/pfp_jardinera.png",
         oficio: "Jardinera",
         email: "anarodriguezjardineria@outlook.com",
         telefono: "11 4567-8901",
@@ -46,7 +46,7 @@ const Listado = [
 
     {
         nombre: "Miguel Torres",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Carpintero",
         email: "miguelcarpintero@gmail.com",
         telefono: "11 5678-9012",
@@ -57,7 +57,7 @@ const Listado = [
 
     {
         nombre: "Sofía López",
-        imagen: "imgs/pfp_jardinera.png",
+        imagen: "../imgs/pfp_jardinera.png",
         oficio: "Cerrajera",
         email: "sofialocksmith@yahoo.com",
         telefono: "11 6789-0123",
@@ -68,7 +68,7 @@ const Listado = [
 
     {
         nombre: "Javier Pérez",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Albañil",
         email: "javieralbanil@gmail.com",
         telefono: "11 7890-1234",
@@ -79,7 +79,7 @@ const Listado = [
 
     {
         nombre: "Lucía Ramírez",
-        imagen: "imgs/pfp_jardinera.png",
+        imagen: "../imgs/pfp_jardinera.png",
         oficio: "Decoradora de interiores",
         email: "luciad.decoradora@outlook.com",
         telefono: "11 8901-2345",
@@ -90,7 +90,7 @@ const Listado = [
 
     {
         nombre: "Roberto Sánchez",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Fontanero",
         email: "robertofontanero@gmail.com",
         telefono: "11 9012-3456",
@@ -101,7 +101,7 @@ const Listado = [
 
     {
         nombre: "Elena García",
-        imagen: "imgs/pfp_jardinera.png",
+        imagen: "../imgs/pfp_jardinera.png",
         oficio: "Electricista",
         email: "elenag.electricista@outlook.com",
         telefono: "11 0123-4567",
@@ -112,7 +112,7 @@ const Listado = [
 
     {
         nombre: "Marco Bianchi",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Carpintero",
         email: "marcobianchi@gmail.com",
         telefono: "11 5678-3456",
@@ -123,7 +123,7 @@ const Listado = [
 
     {
         nombre: "Isabel Moreno",
-        imagen: "imgs/pfp_jardinera.png",
+        imagen: "../imgs/pfp_jardinera.png",
         oficio: "Jardinera",
         email: "isabelmoreno@yahoo.com",
         telefono: "11 6789-4567",
@@ -134,7 +134,7 @@ const Listado = [
 
     {
         nombre: "Hans Müller",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Pintor",
         email: "hansmuller@gmail.com",
         telefono: "11 7890-5678",
@@ -145,7 +145,7 @@ const Listado = [
 
     {
         nombre: "James Smith",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Fontanero",
         email: "james.smith@outlook.com",
         telefono: "11 8901-6789",
@@ -156,7 +156,7 @@ const Listado = [
 
     {
         nombre: "Natalia Martínez",
-        imagen: "imgs/pfp_jardinera.png",
+        imagen: "../imgs/pfp_jardinera.png",
         oficio: "Electricista",
         email: "nataliamartinez@outlook.com",
         telefono: "11 1234-7890",
@@ -167,7 +167,7 @@ const Listado = [
 
     {
         nombre: "Giuseppe Romano",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Albañil",
         email: "giusepperomano@gmail.com",
         telefono: "11 2345-8901",
@@ -178,7 +178,7 @@ const Listado = [
 
     {
         nombre: "Emma Fischer",
-        imagen: "imgs/pfp_jardinera.png",
+        imagen: "../imgs/pfp_jardinera.png",
         oficio: "Decoradora de interiores",
         email: "emma.fischer@outlook.com",
         telefono: "11 3456-9012",
@@ -189,7 +189,7 @@ const Listado = [
 
     {
         nombre: "Juan López",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Cerrajero",
         email: "juan.lopez@gmail.com",
         telefono: "11 4567-0123",
@@ -200,7 +200,7 @@ const Listado = [
 
     {
         nombre: "Michael Johnson",
-        imagen: "imgs/pfp_tecnico.png",
+        imagen: "../imgs/pfp_tecnico.png",
         oficio: "Electricista",
         email: "michael.johnson@outlook.com",
         telefono: "11 5678-1234",
@@ -276,3 +276,5 @@ document.getElementById('key_search').addEventListener('keyup', (e) => {
     });
     importarListado(filteredList);
 });
+
+importarListado();
