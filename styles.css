@@ -28,3 +28,9 @@ img {
 .p-2{
     margin: 10px 15px 0 15px;
 }
+
+.search-article{
+    background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg");
+    margin: 2rem;
+    padding: 10rem;
+}
